@@ -24,6 +24,7 @@ package com.ethan.test01;
 
 
 public class FamilyAccount {
+
     public static void main(String[] args){
         String details = "收支\t账户金额\t收支金额\t说 明\n";
         int moneyTotal=10000;

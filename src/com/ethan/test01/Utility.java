@@ -21,6 +21,7 @@ public class Utility {
         }
         return c;
     }
+
     /**
      用于收入和支出金额的输入。该方法从键盘读取一个不超过4位长度的整数，并将其作为方法的返回值。
      */
@@ -41,8 +42,7 @@ public class Utility {
      用于收入和支出说明的输入。该方法从键盘读取一个不超过8位长度的字符串，并将其作为方法的返回值。
      */
     public static String readString() {
-        String str = readKeyBoard(8);
-        return str;
+        return readKeyBoard(8);
     }
 
     /**
